@@ -1,0 +1,8 @@
+spec/
+node_modules/
+.DS_store
+JS/
+*.js
+N.md
+package-lock.json
+reports/
