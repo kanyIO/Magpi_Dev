@@ -1,11 +1,10 @@
 import { Given, When, Then } from "cucumber";
-import { And } from "protractor-cucumber-framework";
-import { login } from "../PageObjects/LoginPage";
-import { SearchForm } from "../PageObjects/SearchPage";
+import { login } from "../Pages/LoginPage";
+import { SearchForm } from "../Pages/SearchPage";
+import { Exportdata } from "../Pages/ExportPage";
 import { browser, protractor } from "protractor";
 import { async } from "q";
 
-import { Exportdata } from "../PageObjects/ExportPage";
 
 
 let t2 = new SearchForm();
@@ -49,7 +48,7 @@ When('the "Select All" checkbox is selected', async () => {
   await t3.CheckAll.click();
 });
 
-And(" Export {string} is selected", async () => {
+When(" Export {string} is selected", async () => {
   await t3.exportButton.sendKeys(protractor.Key.ENTER);
 })
 
