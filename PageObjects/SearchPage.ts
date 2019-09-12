@@ -1,8 +1,5 @@
 import { $, ElementFinder, browser, element, by } from "protractor";
 
-// import {protractor} from 'protractor/globals';
-
-
 export class SearchForm {
     currentUrl: ElementFinder;
     searchTextBox: ElementFinder;
