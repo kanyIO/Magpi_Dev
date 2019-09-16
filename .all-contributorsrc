@@ -16,6 +16,17 @@
         "design",
         "maintenance"
       ]
+    },
+    {
+      "login": "manojdcoder",
+      "name": "Manojkumar Murugesan",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/4987027?v=4",
+      "profile": "https://github.com/manojdcoder",
+      "contributions": [
+        "code",
+        "bug",
+        "maintenance"
+      ]
     }
   ],
   "contributorsPerLine": 7,
