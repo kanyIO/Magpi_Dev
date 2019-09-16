@@ -9,7 +9,7 @@ export class SearchForm {
 
     constructor() {
         this.currentUrl = element(by.linkText("http://datadyne-dev.com/login/"));
-        this.searchTextBox = $("input[class='field']");
+        this.searchTextBox = element(by.xpath('//*[@id="formSearchTextField"]')); // this.searchTextBox = $("input[class='field']");
         this.SelectsearchButton = element(by.css('input.submit'));
         this.SelectForm = element(by.xpath('//*[@id="tr_form_17857"]/td[2]'));
         this.OpenForm = element(by.id('editFormLink'));
